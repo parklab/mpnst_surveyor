@@ -4,116 +4,146 @@
 
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
- 
+ <!-- Load Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Load Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
  
 <style>
-
-
-.sidebar_circos{
-   background-color: #EFFFFF;
+body{
+   font-family: "Source Sans Pro", sans-serif;
 }
 
-
-.container{
-   width=100%;
-   position: relative;
-   min-height: 100vh;
+h1, h2, h3, h4,h5,h6 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
 }
 
-
-.flex-container{
-   margin-bottom: -100px;
+.GEM::before{
+  content: url("www/GEM_Icon.png");
+  height: 20px;
+  padding-right: 10px;
 }
-
-
-.flex-container .flex-right img{
-  width: 96%;
-	vertical-align: top;
-}
-
-
-
-
-
-
 </style>
-
-
 </head>
 
 
 
 <body>
-   
-  <div class= ".container"> 
-    <div class="flex-container" style="display: flex;">
-        <div style="width: 50%; padding: 50px; ">
-                <h1 style = "font-size:37px; font-family: Verdana; text-align: center;">Welcome to the MPNST Surveyor</h1> 
+<section>
+  <div class="mb-5 bg-light">
+    <img src="www/WelcometoMPNSTBanner.png" class="img-fluid" alt="WelcometoMPNSTBanner" loading="lazy">
+  </div>
+</section>  
+
   
-                     <br>
-                     <hr style="height:3px; visibility:hidden;" />
-                     
-                     
-  <h2 style = "font-size:26px; font-family: Verdana; text-align: center; color: black;">The GeM Consortium</h2> 
-    
-    
-                      <br>
-                      <br>                    
-   
-   <p style = "font-family: 'Verdana'; font-size:17px; text-align: center; color:black; LINE-HEIGHT:34px">The GeM Consortium, made possible by an anonymous philanthropic gift to the Multidisciplinary Neurofibromatosis Program at Boston Children's Hospital, is a multi-institutional descriptive study of clinical, pathological, and molecular features of malignant peripheral nerve sheath tumors (MPNSTs), a rare soft-tissue sarcoma that is the most common malignancy affecting persons with Neurofibromatosis Type 1 (NF1).</p>
-                      <br>
-                      <br> 
-                     
-   <p style = "font-family: 'Verdana'; font-size:17px; text-align: center; color:black; LINE-HEIGHT:34px">
-      Other NF1-related tumors such as plexiform neurofibromas (PN) and atypical neurofibromas (AN) are precursors of MPNSTs, and will also be studied in some cases. Paired normal non-tumor specimens (i.e., peripheral blood) will also be studied for comparison. The GeM Consortium has employed a variety of molecular analysis techniques to improve the biological understanding of NF1-related tumors.
-   </p>
-                    <br>
-                    <br>
-                    <br>
-   
-   
-   <h2 style = "font-size:26px; font-family: Verdana; text-align: center; color: black;">About the MPNST Surveyor</h2> 
-      
-                     <br>
-                     <br>
-                     
-                     
-     <p style = "font-family: 'Verdana'; font-size:17px; text-align: center; color:black; LINE-HEIGHT:34px">The MPNST Surveyor is a central database for analyzing and displaying genomic data gathered from the whole genome sequencing of ca. 100 malignant peripheral nerve sheath tumors (MPNSTs). The study has utilized multi-omic analysis to better understand the genomic landscape of NF1-related tumors as well as tumors associated with plexiform and atypical neurofibromas. The data resulting from this comprehensive sequencing is displayed throughout the MPNST Surveyor and in the GeM Consortium instance of cBioPortal. For a broad description of the study and the techniques used for analyzing these tumors, please refer to <a href="https://www.mdpi.com/2073-4425/11/4/387">https://www.mdpi.com/2073-4425/11/4/387</a>.</p>
-     
-                    <br>
-                    <br>
-      
-    <p style = "font-family: 'Verdana'; font-size:17px; text-align: center; color:black; LINE-HEIGHT:34px">
-      Thank you for visiting the MPNST Surveyor. The MPNST Surveyor and The GeM Consortium are the result of an international collaboration to better understand the genomic landscape of MPNSTs and related soft tissue sarcomas. The GeM Consortium is possible in large part due to the commitment of these institutions shown on the right. To learn more about this collaboration, please visit the <a href="https://www.nfresearch-childrens.org/">NF Research Initiative Website</a>. There will be updated information on the progress being made, and you can find out more about the GeM Consortium and the NF Research Initiative.
-   </p>
-                     
+<div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 g-3">
+           <div class="col">
+          <div class="card shadow-sm">
+            <img src="www/BrowseSamples.png" class="img-fluid" alt="BrowseSamples" loading="lazy">
+          </div>
         </div>
         
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="www/ExploreDataPlots.png" class="img-fluid" alt="ExploreDataPlots" loading="lazy">
+          </div>
+        </div>
         
-        
-           <div class="flex-right" style="flex: 1 1 0; padding: 40px; text-align: center;">
-             
-                  <br> 
-                  <br>
-                  
-                 <img class="img-responsive" src="circos_homepage.png" height="1190" width="1140">        
-                  
-                  
-                
-                  <hr style="height:2px; visibility:hidden;"/>
-          
-                     
-                 <img class="img-responsive" src="logos_homepage.png" height="810" width="650" style="padding: 32px;">
-                   
-                  <br>
-                  <br>
-               
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="www/SearchMutations.png" class="img-fluid" alt="SearchMutations" loading="lazy">
+          </div>
+        </div>
 
-           </div>
-        
-   </div>
 
-  </div> 
-   
+          </div>
+        </div>
+    </div>
+</div>
+ 
+<div class = "container">
+   <div class="row g-5">
+    <div class="mt-5 col-md-8">
+     <h3 class="GEM pb-4 mb-4 border-bottom">
+        The GeM Consortium
+      </h3>
+      <p>The GeM Consortium, made possible by an anonymous philanthropic gift to the Multidisciplinary Neurofibromatosis Program at Boston Children’s Hospital, is a multi-institutional descriptive study of clinical, pathological, and molecular features of malignant peripheral nerve sheath tumors (MPNSTs), a rare soft-tissue sarcoma that is the most common malignancy affecting persons with Neurofibromatosis Type 1 (NF1).</p>
+      <br>
+      <p>Other NF1-related tumors such as plexiform neurofibromas (PN) and atypical neurofibromas (AN) are precursors of MPNSTs, and will also be studied in some cases. Paired normal non-tumor specimens (i.e., peripheral blood) will also be studied for comparison. The GeM Consortium has employed a variety of molecular analysis techniques to improve the biological understanding of NF1-related tumors.</p>
+      <br>
+    
+    <div class="p-5 mt-4 bg-light border">
+      <h4 class="pb-3 mb-3 ">
+        About MPNST Surveyor
+      </h4>
+      <p>The MPNST Surveyor is a central database for analyzing and displaying genomic data gathered from the whole genome sequencing of ca. 100 malignant peripheral nerve sheath tumors (MPNSTs). The study has utilized multi-omic analysis to better understand the genomic landscape of NF1-related tumors as well as tumors associated with plexiform and atypical neurofibromas. 
+</p>
+      <br>
+      <p>The data resulting from this comprehensive sequencing is displayed throughout the MPNST Surveyor and in the GeM Consortium instance of cBioPortal. For a broad description of the study and the techniques used for analyzing these tumors, please refer to <a href=https://www.mdpi.com/2073-4425/11/4/387.> www.mdpi.com </a></p>
+      <br>
+      <p>Thank you for visiting the MPNST Surveyor. The MPNST Surveyor and The GeM Consortium are the result of an international collaboration to better understand the genomic landscape of MPNSTs and related soft tissue sarcomas. The GeM Consortium is possible in large part due to the commitment of these institutions shown on the right. </p>
+      <br>
+      <p>To learn more about this collaboration, please visit the NF Research Initiative Website. There will be updated information on the progress being made, and you can find out more about the GeM Consortium and the NF Research Initiative.</p>
+      <br>
+    </div>
+    </div>
+    
+<div class="p-5 col-md-4">
+        <div class="my-3">
+          <h4 class="fst-italic pb-4 mb-4 border-bottom">Explore Data</h4>
+          <p class="mb-5">Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
+        </div>
+
+        <div class="pb-4">
+          <h4 class="fst-italic">Archives</h4>
+          <ol class="list-unstyled mb-0">
+            <li><a href="#">March 2021</a></li>
+            <li><a href="#">February 2021</a></li>
+            <li><a href="#">January 2021</a></li>
+            <li><a href="#">December 2020</a></li>
+            <li><a href="#">November 2020</a></li>
+            <li><a href="#">October 2020</a></li>
+            <li><a href="#">September 2020</a></li>
+            <li><a href="#">August 2020</a></li>
+            <li><a href="#">July 2020</a></li>
+            <li><a href="#">June 2020</a></li>
+            <li><a href="#">May 2020</a></li>
+            <li><a href="#">April 2020</a></li>
+          </ol>
+        </div>
+
+        <div class="pb-4">
+          <h4 class="fst-italic">Elsewhere</h4>
+          <ol class="list-unstyled">
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ol>
+        </div>
+    </div>
+  </div>
+ </div>   
+
+
+
+ <div class = "container">
+   <div class="row g-5 mb-3">
+      <div class="mt-5 col-md-12">
+        <h3 class="pb-4 mb-4 border-bottom">
+        Our Partners
+      </h3>
+      <img src="www/LogosPartners.png" class="img-fluid" alt="WelcometoMPNSTBanner" loading="lazy">
+
+
 </body>
 </html> 

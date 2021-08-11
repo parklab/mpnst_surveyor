@@ -1,140 +1,71 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-  
   <meta name="viewport" content="width=device-width, initial-scale=1">
- 
- 
-<style>
+  <!-- Load Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Load Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style>
+    .sidebar_circos {
+      background-color: #EFFFFF;
+    }
+
+    .footer-distributed {
+      position: absolute;
+      height: 75px;
+      /* left: 0; */
+      bottom: 0;
+      width: 100%;
+      padding: 25px 15px;
+      color: #414141;
+      text-align: center;
+      font-family: "Source Sans Pro", sans-serif;
+      background-color: #F4F4F4;
+    }
+
+    .col-md-4 img {
+      padding-right: 1em;
+      margin-top: -1.2em;
+      padding-left: 1em;
+    }
 
 
-.sidebar_circos{
-   background-color: #EFFFFF;
-}
-
-
-.container{
-   width=100%;
-   position: relative;
-   min-height: 100vh;
-}
-
-
-.flex-container{
-   padding-bottom: 200px;
-}
-
-
-.flex-container .flex-right img{
-  width: 96%;
-	vertical-align: top;
-}
-
-
-
-.footer-distributed {
-   position: absolute;
-   height: 175px;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   color: #0F9DEB;
-   text-align: center;
-   font-size: 15pt; 
-   font-family: Verdana;
-   border-top: 3px solid #003366;
-   background-image: linear-gradient(#EFFFFF, #FFE6EA);
-}
-
-
-.footer-distributed .footer-left{
-  display: inline-block;
-	vertical-align: center;
-}
-
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
-	display: inline-block;
-	vertical-align: top;
-}
-
-
-
-.footer-distributed .footer-left{
-	width: 31%;
-	line-height:175px;
-	text-align: center;
-}
-
-.footer-distributed .footer-left img{
-	width: 96%;
-	vertical-align: middle;
-}
-
-.footer-distributed .footer-center{
-	 width: 31%;
-	 line-height: 175px;
-   font-family: Verdana;
-   color: black;
-}
-
-.footer-distributed .footer-center img{
-	width: 96%;
-	text-align: right;
-}
-
-.footer-distributed .footer-right{
-	 width: 33%;
-}
-
-
-
-
-
-</style>
-
+  </style>
 
 </head>
 
 
 
 <body>
-   
-   
 
-   
-
-<footer class="footer-distributed">
-   
-   <div class="footer-left"> 
-         <a href="https://www.nfresearch-childrens.org/gem-consortium"> <img src="GeMConsortium_new_white_removed.png" width="900" height="130"></a>
-   </div>
-   
-   
-   <div class="footer-center"> 
-   
-       <div>
-         <a href="https://www.nfresearch-childrens.org/"> <img src="NF-Research-Initiative-logo-black.png" width="570" height="95"></a>
+  <footer class="footer-distributed ">
+    <div class="container-fluid ">
+      <div class="row g-2">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="https://www.nfresearch-childrens.org/gem-consortium"> <img "img-fluid" src="www/GeM-Consortium-Footer-Logo.png"></a>
+          <a href="https://www.nfresearch-childrens.org/"> <img "img-fluid" src="www/NF-Research-Initiative-Footer-Logo.png"></a>
+        </div>
+        <div class="col-md-4 d-flex align-items-center">
+          <p>NF Research Initiative BCH 3448 | 300 Longwood Ave., Boston 02115 </p>
+        </div>
+        <div class="col-md-4 d-flex-end align-items-center">
+          <p>NFresearch@childrensharvard.edu | 617-919-6277</p>
+        </div>
       </div>
-      
-   </div>
-   
-   <div class="footer-right">
-         
-            
-        <h2 style="font-family: Verdana; font-size:14pt; color: black; text-align: right"><u>Contact Information</u></h2>
-            <ul style ="list-style: none; font-size: 11pt; line-height: 34px; color: black; text-align: right">
-              <li>NF Research Initiative BCH 3448</li>
-              <li>300 Longwood Ave., Boston 02115 </li>
-              <li>NFresearch@childrensharvard.edu | 617-919-6277</li>
-            </ul>   
-      
-  
-  
-</footer>
+    </div>
 
-  </div> 
-   
+  </footer>
+
 </body>
-</html> 
+
+</html>
